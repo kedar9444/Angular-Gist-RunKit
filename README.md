@@ -1,6 +1,8 @@
 # Angular Gist RunKit
 
-Angular Gist RunKit Module.
+![](https://firebasestorage.googleapis.com/v0/b/angularpoc-f717b.appspot.com/o/packages%2Fgist-runkit%2Fngx-gist-runkit-logo.png?alt=media&token=96bd676d-44b0-4731-8db0-2ae03bfb41ad)
+
+Gist RunKit combines the power of Github Gist with RunKit.
 
 ## Source Code
 
