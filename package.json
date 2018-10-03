@@ -1,6 +1,10 @@
 {
   "name": "ngx-gist-runkit",
   "version": "1.0.1",
+  "description": "Gist RunKit combines the power of Github Gist with RunKit.",
+  "author": "Kedar Paritkar <kedar.paritkar@angularway.com> (https://www.angularway.com)",
+  "homepage": "https://github.com/kedar9444/Gist-RunKit#readme",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,6 +18,19 @@
   "dependencies": {
     "@angular/http": "^6.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedar9444/Gist-RunKit.git"
+  },
+  "keywords": [
+    "Angular",
+    "Gist",
+    "RunKit"
+  ],
+  "bugs": {
+    "url": "https://github.com/kedar9444/Gist-RunKit/issues"
+  },
+
   "devDependencies": {
     "@angular/animations": "^6.0.3",
     "@angular/common": "^6.0.3",
