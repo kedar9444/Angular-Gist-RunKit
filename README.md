@@ -1,27 +1,77 @@
-# NgxGistRunkit
+# angular-runkit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+Angular Gist RunKit Module. [Work in progres....]
 
-## Development server
+## Install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install the package.
 
-## Code scaffolding
+```sh
+$ npm i -s ngx-gist-runkit
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Add the RunKit embed library to your index page:
 
-## Build
+**`src/index.html`**
+```html
+<head>
+    ...
+    <script src="https://embed.runkit.com"></script>
+    ...
+</head>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Whitelist `angular-runkit` in your System.js config:
 
-## Running unit tests
+**`src/systemjs.config.js`**
+```js
+map: {
+    ...
+    'angular-runkit': 'npm:angular-runkit/dist/index.js',
+    ...
+}
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Declare the component in your module:
 
-## Running end-to-end tests
+**`src/app/app.module.ts`**
+```ts
+import { NgxGistRunkitModule } from 'ngx-gist-runkit'
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+...
 
-## Further help
+@NgModule({
+	...
+	imports: [
+		...
+		NgxGistRunkitModule,
+		...
+	],
+	...
+})
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Usage
+
+```html
+<app-ngx-gist-runkit [gistId]="gistId" [gistFileName]="gistFileName" ></app-ngx-gist-runkit>
+```
+
+
+Don't forget to check out the [RunKit embed docs](https://runkit.com/docs/embed#options).
+
+## Inputs
+
+### source : string
+
+Basically there are two inputs one is [gistId] and second is [gistFileName].
+
+[gistId] : is the id present after you username when you open your gist on github.
+
+[gistFileName] : Before creating any Gist  github asks for the filename you have to enter the same.
+
+Please check below image for more details.
+
+```html
+<app-ngx-gist-runkit [gistId]="gistId" [gistFileName]="gistFileName" ></app-ngx-gist-runkit>
+```
