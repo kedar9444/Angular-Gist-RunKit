@@ -9,6 +9,9 @@ Angular Gist RunKit Module.
 
 [Gist-RunKit source code ](https://github.com/kedar9444/Gist-RunKit)
 
+
+[Gist-RunKit npm](https://www.npmjs.com/package/ngx-gist-runkit)
+
 ## Install
 
 Install the package.
