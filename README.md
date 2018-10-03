@@ -1,4 +1,4 @@
-# angular-runkit
+# Angular Gist RunKit
 
 Angular Gist RunKit Module.
 

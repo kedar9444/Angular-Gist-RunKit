@@ -1,6 +1,6 @@
 {
   "name": "ngx-gist-runkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gist RunKit combines the power of Github Gist with RunKit.",
   "author": "Kedar Paritkar <kedar.paritkar@angularway.com> (https://www.angularway.com)",
   "homepage": "https://github.com/kedar9444/Gist-RunKit#readme",
