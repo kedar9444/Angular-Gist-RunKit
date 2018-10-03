@@ -23,7 +23,7 @@ Add the RunKit embed library to your index page:
 
 Whitelist `angular-runkit` in your System.js config:
 
-**`src/systemjs.config.js` (if applicable) **
+**`src/systemjs.config.js`** (if applicable)
 ```js
 map: {
     ...
