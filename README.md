@@ -4,7 +4,8 @@ Angular Gist RunKit Module.
 
 ## Source Code
 
-[Gist-RunKit source code ](https://github.com/kedar9444/Gist-RunKit) 
+[Gist-RunKit website](https://kedar9444.github.io/Angular-Gist-RunKit)
+[Gist-RunKit source code ](https://github.com/kedar9444/Gist-RunKit)
 
 ## Install
 
@@ -70,9 +71,9 @@ Don't forget to check out the [RunKit embed docs](https://runkit.com/docs/embed#
 
 Basically there are two inputs one is [gistId] and second is [gistFileName].
 
-[gistId] : is the id present after you username when you open your gist on github.
+**`[gistId]`** : is the id present after you username when you open your gist on github.
 
-[gistFileName] : Before creating any Gist  github asks for the filename you have to enter the same.
+**`[gistFileName]`** : Before creating any Gist  github asks for the filename you have to enter the same.
 
 Please check below image for more details.
 
