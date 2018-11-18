@@ -5,7 +5,6 @@
   <br/>
 <h2>Angular Gist RunKit</h2>
 <hr/>
-<br/>
 Gist RunKit combines the power of Github Gist with RunKit.
 </div>
 
