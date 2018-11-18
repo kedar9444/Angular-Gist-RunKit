@@ -1,6 +1,6 @@
 # Angular Gist RunKit
 <div align="center">
-![](https://firebasestorage.googleapis.com/v0/b/angularpoc-f717b.appspot.com/o/packages%2Fgist-runkit%2Fngx-gist-runkit-logo.png?alt=media&token=ee6332e3-025c-490f-b8b7-b9cedf950b7a)
+   <img src="https://firebasestorage.googleapis.com/v0/b/angularpoc-f717b.appspot.com/o/packages%2Fgist-runkit%2Fngx-gist-runkit-logo.png?alt=media&token=ee6332e3-025c-490f-b8b7-b9cedf950b7a" height="128">
 </div>
 Gist RunKit combines the power of Github Gist with RunKit.
 
