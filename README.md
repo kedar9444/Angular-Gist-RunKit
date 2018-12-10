@@ -18,6 +18,9 @@ Gist RunKit combines the power of Github Gist with RunKit.</p>
 
 
 [Gist-RunKit npm](https://www.npmjs.com/package/ngx-gist-runkit)
+
+
+[Edit on Stackblitz](https://stackblitz.com/edit/angular-gist-runkit-demo?embed=1)
 </div>
 
 ## Install
